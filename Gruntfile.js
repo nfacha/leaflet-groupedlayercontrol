@@ -35,5 +35,5 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask('default', ['uglify', 'cssmin']);
+  grunt.registerTask('default', ['cssmin']);
 };
